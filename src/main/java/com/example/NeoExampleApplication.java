@@ -17,8 +17,8 @@ public class NeoExampleApplication implements CommandLineRunner {
 		this.repository.deleteAll();
 
 		// save a couple of customers
-     	this.repository.save(new Customer("Alice", "Smith"));
-		this.repository.save(new Customer("Bob", "Smith"));
+     	//this.repository.save(new Customer("Alice", "Smith"));
+		//this.repository.save(new Customer("Bob", "Smith"));
 
 		// fetch all customers
 		System.out.println("Customers found with findAll():");

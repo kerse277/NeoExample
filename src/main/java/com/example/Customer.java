@@ -18,7 +18,7 @@ package com.example;
 
 import org.neo4j.ogm.annotation.GraphId;
 import org.neo4j.ogm.annotation.NodeEntity;
-
+//Model
 @NodeEntity
 public class Customer {
 
